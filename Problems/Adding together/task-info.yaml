@@ -1,0 +1,13 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    a = int(input())
+    b = int(input())
+
+    # calculate the sum below
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6884
+status: Solved
+record: -1

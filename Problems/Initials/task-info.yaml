@@ -1,0 +1,13 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    # the following line reads the name from the input, do not modify it, please
+    name = input()
+
+    # your code here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8495
+status: Solved
+record: -1

@@ -1,0 +1,14 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    amount = 1000
+    interest_rate = 5
+    years = 1
+    # change the next line
+    income = ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5876
+status: Solved
+record: -1

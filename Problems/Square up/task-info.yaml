@@ -1,0 +1,12 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    i = 1
+    while i > 20:
+        print(i)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6540
+status: Solved
+record: -1

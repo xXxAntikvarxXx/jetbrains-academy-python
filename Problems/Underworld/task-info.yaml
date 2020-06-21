@@ -1,0 +1,9 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: '# the variable `coin` is already defined'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7076
+status: Solved
+record: -1

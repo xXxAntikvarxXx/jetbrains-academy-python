@@ -1,0 +1,11 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    # put your python code here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6719
+status: Solved
+record: -1

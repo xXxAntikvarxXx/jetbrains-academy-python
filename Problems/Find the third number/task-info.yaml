@@ -1,0 +1,13 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    # the following line reads the list from the input, do not modify it, please
+    prices = input().split()
+
+    # please work with the list 'prices' here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6062
+status: Solved
+record: -1

@@ -1,0 +1,9 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: set_number = 6557
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6382
+status: Solved
+record: -1

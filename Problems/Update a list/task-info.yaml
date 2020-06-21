@@ -1,0 +1,12 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    numbers = [4, 1, 0, 3, 2, 5]
+    # put your python code here
+    print(numbers)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6720
+status: Solved
+record: -1

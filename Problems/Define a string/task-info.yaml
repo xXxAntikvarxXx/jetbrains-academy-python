@@ -1,0 +1,9 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: '# define a new variable here'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5864
+status: Solved
+record: -1
