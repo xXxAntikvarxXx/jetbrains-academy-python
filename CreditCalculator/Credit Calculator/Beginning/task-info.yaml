@@ -1,0 +1,60 @@
+type: edu
+custom_name: stage1
+files:
+- name: tests.py
+  visible: false
+  text: |
+    from hstest.stage_test import StageTest
+    from hstest.test_case import TestCase
+    from hstest.check_result import CheckResult
+
+    CheckResult.correct = lambda: CheckResult(True, '')
+    CheckResult.wrong = lambda feedback: CheckResult(False, feedback)
+
+
+    class CreditCalcTest(StageTest):
+        def generate(self):
+            return [TestCase()]
+
+        def check(self, reply, attach):
+            print_strs = [
+                'Credit principal: 1000',
+                'Month 1: paid out 250',
+                'Month 2: paid out 250',
+                'Month 3: paid out 500',
+                'The credit has been repaid!',
+            ]
+
+            for print_str in print_strs:
+                if print_str not in reply:
+                    return CheckResult.wrong(
+                        'You forgot to output string "{0}"'.format(print_str),
+                    )
+
+            if not '\n'.join(print_strs) in reply:
+                return CheckResult.wrong('You output strings in the wrong order')
+
+            return CheckResult.correct()
+
+
+    if __name__ == '__main__':
+        CreditCalcTest('creditcalc.creditcalc').run_tests()
+  learner_created: false
+- name: creditcalc/creditcalc.py
+  visible: true
+  text: |
+    credit_principal = 'Credit principal: 1000'
+    final_output = 'The credit has been repaid!'
+    first_month = 'Month 1: paid out 250'
+    second_month = 'Month 2: paid out 250'
+    third_month = 'Month 3: paid out 500'
+
+    # write your code here
+  learner_created: false
+feedback_link: https://hyperskill.org/projects/90/stages/500/implement
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/90/stages/500/implement">JetBrains
+    Academy</a>
+  time: Tue, 30 Jun 2020 19:10:53 UTC
+record: 1

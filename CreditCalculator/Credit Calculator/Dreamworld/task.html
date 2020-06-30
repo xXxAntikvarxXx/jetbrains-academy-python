@@ -1,0 +1,83 @@
+<h2 style="text-align: center;">Description</h2>
+
+<p>If you found the previous stage too easy, let's add something interesting. The best credits are probably those with a 0% interest: such credits are called installments.</p>
+
+<p>Let's make some calculations for installments. The user might know the count of periods and want to calculate the monthly payment. Or, the user might know the value of the monthly payment and wonder how many periods it would take to repay the installments. </p>
+
+<p>At this stage, it is required to ask the user to input the credit principal. Then, the user should tell what needs to be calculated (the monthly payment or the count of periods) and enter the necessary parameter. After that, the credit calculator should output the value that the user wants.</p>
+
+<p>Also, let’s assume we don't care about the digits after the dot. So if you get a floating-point expression as a result of the calculation, you’ll have to do additional actions. Take a look at Example 4. In that example, you need to calculate the monthly payment. You know that the credit principal is 1000 and want to pay fit in 9 months. The real value of payment can be calculated as:</p>
+
+<p style="text-align: center;"><span class="math-tex">\(payment = \dfrac{principal}{months}=\dfrac{1000}{9} =111.11...\)</span></p>
+
+<p>Of course, you can’t pay that amount of money. You have to round up this value and make it 112. Remember that no payment can be more than a monthly payment. If you make a monthly payment of 111, the last payment will be 112, and if you make a monthly payment of 112, the last payment will be 104, which is appropriate by the rules. You can calculate the last payment just by:</p>
+
+<p style="text-align: center;"><span class="math-tex">\(lastpayment =principal -(periods-1)*payment = 1000 - 8*112=104\)</span></p>
+
+<p>At this stage, you need to count the number of months or the monthly payment. If the last payment differs from the rest, the program should display the monthly payment and the last payment.</p>
+
+<h2 style="text-align: center;">Objectives</h2>
+
+<p>The behavior of your program should look like this:</p>
+
+<ol>
+	<li>Prompt a user to enter their credit principal and choose one of the two parameters, i.e. the count of periods or the monthly payment.</li>
+	<li>To perform further calculations, you'll also have to ask for the lacking value.</li>
+	<li>Finally, inform the user of your results.</li>
+</ol>
+
+<h2 style="text-align: center;">Examples</h2>
+
+<p>The greater-than symbol followed by space (<code class="java">&gt; </code>) represents the user input. Notice that it's not the part of the input.</p>
+
+<p><strong>Example 1:</strong></p>
+
+<pre><code class="language-no-highlight">Enter the credit principal:
+&gt; 1000
+What do you want to calculate? 
+type "m" - for count of months, 
+type "p" - for monthly payment:
+&gt; m
+Enter monthly payment:
+&gt; 150
+
+It takes 7 months to repay the credit</code></pre>
+
+<p><strong>Example 2:</strong></p>
+
+<pre><code class="language-no-highlight">Enter the credit principal:
+&gt; 1000
+What do you want to calculate? 
+type "m" - for count of months, 
+type "p" - for monthly payment:
+&gt; m
+Enter monthly payment:
+&gt; 1000
+
+It takes 1 month to repay the credit</code></pre>
+
+<p><strong>Example 3:</strong></p>
+
+<pre><code class="language-no-highlight">Enter the credit principal:
+&gt; 1000
+What do you want to calculate? 
+type "m" - for count of months, 
+type "p" - for monthly payment:
+&gt; p
+Enter count of months:
+&gt; 10
+
+Your monthly payment = 100</code></pre>
+
+<p><strong>Example 4:</strong></p>
+
+<pre><code class="language-no-highlight">Enter the credit principal:
+&gt; 1000
+What do you want to calculate? 
+type "m" - for count of months, 
+type "p" - for monthly payment
+&gt; p
+Enter count of months:
+&gt; 9
+
+Your monthly payment = 112 with last month payment = 104.</code></pre>

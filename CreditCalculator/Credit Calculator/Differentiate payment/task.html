@@ -1,0 +1,160 @@
+<h2 style="text-align: center;">Description</h2>
+
+<p>Finally, let's add to our calculator the capacity to compute the differentiated payment. In such a kind of payment where the part for reducing the credit principal is constant. Another part of the payment is for interest repayment and it reduces during the credit term. It means that the payment is different each month. Let’s look at the formula:</p>
+
+<p style="text-align: center;"><span class="math-tex">\(D_m = \dfrac{P}{n} + i * \left( P - \dfrac{P*(m-1)}{n} \right) \)</span></p>
+
+<p><strong>Where:</strong></p>
+
+<p><span class="math-tex">\(D_m\)</span> = mth differentiated payment;</p>
+
+<p><span class="math-tex">\(P\)</span> = the credit principal;</p>
+
+<p><span class="math-tex">\(i\)</span> = nominal interest rate. Usually, it’s 1/12 of the annual interest rate. And usually, it’s a floating value, not a percentage. For example, if we our annual interest rate = 12%, then i = 0.01.</p>
+
+<p><span class="math-tex">\(n\)</span> = Number of payments. Usually, it’s the count of months.</p>
+
+<p><span class="math-tex">\(m\)</span> = current period.</p>
+
+<p>As you can see, the user has to input a lot of parameters. So it might be convenient to use command-line arguments.</p>
+
+<p>Suppose you used to run your credit calculator via command line like this:</p>
+
+<pre><code class="language-no-highlight">python credit_calc.py</code></pre>
+
+<p>Using command-line arguments you can run your program this way:</p>
+
+<pre><code class="language-no-highlight">python credit_calc.py --type=diff --principal=1000000 --periods=10 --interest=10</code></pre>
+
+<p>In that case, your program can get different values and not ask the user to input them. It can be useful when you are developing your program and trying to find a mistake and want to run the program with the same parameters again and again. Also, it's convenient if you made a mistake in a single parameter. You don't have to input all other values again.</p>
+
+<p>To confidently work with command-line arguments in Python, check out a <a target="_blank" href="https://docs.python.org/3/howto/argparse.html" rel="noopener noreferrer nofollow">tutorial</a>.</p>
+
+<h2 style="text-align: center;">Objectives</h2>
+
+<p>At this stage, it is required to implement these features:</p>
+
+<ul>
+	<li>the calculation of differentiated payment. To do this, the user may run the program specifying interest, count of periods and credit principal.</li>
+	<li>
+	<p>a capacity to calculate the same values as in the previous stage for annuity payment (principal, count of periods and value of the payment). A user specifies all known parameters with command-line arguments, while a single parameter will be unknown. This is the value the user wants to calculate.</p>
+	</li>
+	<li>
+	<p>handling of invalid parameters. It's a good idea to show an error message <code class="java">Incorrect parameters</code> in case of invalid parameters (they are discussed in detail below).</p>
+	</li>
+</ul>
+
+<p>The final version of your program is supposed to work from the command line and parse the following parameters:</p>
+
+<ul>
+	<li><code class="java">--type</code>, which indicates the type of payments: <code class="java">"annuity"</code> or <code class="java">"diff"</code> (differentiated). If <code class="java">--type</code> is specified neither as <code class="java">"annuity"</code> nor as <code class="java">"diff"</code>, or it is not specified at all, show the error message.
+
+	<pre><code class="language-no-highlight">&gt; python credit_calc.py --principal=1000000 --periods=60 --interest=10
+Incorrect parameters</code></pre>
+	</li>
+	<li><code class="java">--payment</code>, that is a monthly payment. For <code class="java">--type=diff</code> the payment is different each month, so we can't calculate periods or principal, therefore, its combination with <code class="java">--payment</code> is invalid, too:
+	<pre><code class="language-no-highlight">&gt; python credit_calc.py --type=diff --principal=1000000 --interest=10 --payment=100000
+Incorrect parameters</code></pre>
+	</li>
+	<li><code class="java">--principal</code> is used for calculations of both types of payment. You can get its value knowing the interest, annuity payment and periods.</li>
+	<li><code class="java">--periods</code> parameter denotes the number of months and/or years needed to repay the credit. It's calculated based on the interest, annuity payment and principal.</li>
+	<li><code class="java">--interest</code> is specified without a percent sign. Note that it may accept a floating-point value. Our credit calculator can't calculate the interest, so these parameters are incorrect:
+	<pre><code class="language-no-highlight">&gt; python credit_calc.py --type=annuity --principal=100000 --payment=10400 --periods=8
+Incorrect parameters</code></pre>
+	</li>
+</ul>
+
+<p>Let's make a comment. You might have noticed that for differentiated payments you will need 4 out of 5 parameters (excluding payment), and the same is true for annuity payments (missing either periods, payment or principal). Thus, when less than four parameters are given, you should display the error message too:</p>
+
+<pre><code class="language-no-highlight">&gt; python credit_calc.py --type=annuity --principal=1000000 --payment=104000
+Incorrect parameters</code></pre>
+
+<p>Another case when you should output this message is negative values. We can't work with these!</p>
+
+<pre><code class="language-no-highlight">&gt; python credit_calc.py --type=diff --principal=30000 --periods=-14 --interest=10
+Incorrect parameters</code></pre>
+
+<p>Finally, don't forget to compute the value of overpayment, and you'll have your real credit calculator!</p>
+
+<h2 style="text-align: center;">Examples</h2>
+
+<p>Let’s look at the first example. The greater-than symbol followed by space (<code class="java">&gt; </code>) represents the user input. </p>
+
+<p><strong>Example 1: </strong><em>calculate differentiated payments</em></p>
+
+<pre><code class="language-no-highlight">&gt; python credit_calc.py --type=diff --principal=1000000 --periods=10 --interest=10
+Month 1: paid out 108334
+Month 2: paid out 107500
+Month 3: paid out 106667
+Month 4: paid out 105834
+Month 5: paid out 105000
+Month 6: paid out 104167
+Month 7: paid out 103334
+Month 8: paid out 102500
+Month 9: paid out 101667
+Month 10: paid out 100834
+
+Overpayment = 45837</code></pre>
+
+<p>In this example, the user wants to take a credit with differentiated payments. You know the principal, the count of periods and interest, which are 1,000,000, 10 months and 10% respectively.</p>
+
+<p>The calculator should calculate payments for all 10 months. Let’s look at the formula above. In this case:</p>
+
+<p><span class="math-tex">\(P = 100000\)</span><br>
+<span class="math-tex">\(n = 10\)</span><br>
+<span class="math-tex">\(i = \dfrac{ interest }{ 12 * 100\% } = \dfrac { 10\% }{12 * 100\% } = 0.008333...\)</span></p>
+
+<p>Then, let’s find the payment for the first month (<span class="math-tex">\(m=1\)</span>):</p>
+
+<p><span class="math-tex">\(D_1 = \dfrac{P}{n} + i * \left(P - \dfrac{ P * (m-1) }{ n } \right)=\dfrac{ 1000000 }{ 10 } + 0.008333... * \left( 1000000 - \dfrac{ 1000000*(1-1) }{ 10 } \right) = 108333.333...\)</span></p>
+
+<p>The second month (<span class="math-tex">\(m = 2\)</span>):</p>
+
+<p><span class="math-tex">\(D_1 = \dfrac{P}{n} + i * \left(P - \dfrac{ P * (m-1) }{ n } \right)=\dfrac{ 1000000 }{ 10 } + 0.008333... * \left( 1000000 - \dfrac{ 1000000*(2-1) }{ 10 } \right) = 107500\)</span></p>
+
+<p>The third month (<span class="math-tex">\(m = 3\)</span>):</p>
+
+<p><span class="math-tex">\(D_1 = \dfrac{P}{n} + i * \left(P - \dfrac{ P * (m-1) }{ n } \right)=\dfrac{ 1000000 }{ 10 } + 0.008333... * \left( 1000000 - \dfrac{ 1000000*(3-1) }{ 10 } \right) = 106666.666...\)</span></p>
+
+<p>And so on. You can see other monthly payments above.</p>
+
+<p><div class="alert alert-warning">Your credit calculator should output monthly payments <strong>for every month</strong> like at the first stage. Also, round up all floating-point values.</div></p>
+
+<p>Finally, your credit calculator should add up all the payments and subtract the credit principal so that you'll get the overpayment.</p>
+
+<p><strong>Example 2: </strong><em>find an annuity payment for the 60-month (or 5-year) credit with the principal 1,000,000 and 10% interest</em></p>
+
+<pre><code class="language-no-highlight">&gt; python credit_calc.py --type=annuity --principal=1000000 --periods=60 --interest=10
+Your annuity payment = 21248!
+Overpayment = 274880</code></pre>
+
+<p><strong>Example 3: </strong><em>less than four arguments are given</em></p>
+
+<pre><code class="language-no-highlight">&gt; python credit_calc.py --type=diff --principal=1000000 --payment=104000
+Incorrect parameters.</code></pre>
+
+<p><strong>Example 4: </strong><em>calculate differentiated payments given the principal 500,000, the period of 8 months and the interest rate 7.8%</em></p>
+
+<pre><code class="language-no-highlight">&gt; python credit_calc.py --type=diff --principal=500000 --periods=8 --interest=7.8
+Month 1: paid out 65750
+Month 2: paid out 65344
+Month 3: paid out 64938
+Month 4: paid out 64532
+Month 5: paid out 64125
+Month 6: paid out 63719
+Month 7: paid out 63313
+Month 8: paid out 62907
+
+Overpayment = 14628</code></pre>
+
+<p><strong>Example 5: </strong><em>calculate the principal for a user paying 8,722 per month for 120 months (10 years) with the interest 5.6%</em></p>
+
+<pre><code class="language-no-highlight">&gt; python credit_calc.py --type=annuity --payment=8722 --periods=120 --interest=5.6
+Your credit principal = 800018!
+Overpayment = 246622</code></pre>
+
+<p><strong>Example 6: </strong><em>figure out how much time a user needs to repay the credit with 500,000 principal, 23,000 monthly payment and 7.8% interest</em></p>
+
+<pre><code class="language-no-highlight">&gt; python credit_calc.py --type=annuity --principal=500000 --payment=23000 --interest=7.8
+You need 2 years to repay this credit!
+Overpayment = 52000</code></pre>

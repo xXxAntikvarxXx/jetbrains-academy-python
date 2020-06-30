@@ -1,0 +1,127 @@
+<h2 style="text-align: center;">Description</h2>
+
+<p>Let's compute all the parameters of the credit. There are at least two kinds of credit: those with annuity payment and with differentiated payment. At this stage, you're going to calculate only the annuity payment which is fixed during the whole credit term.</p>
+
+<p>This is the formula:</p>
+
+<p style="text-align: center;"><span class="math-tex">\(A_{ordinary\_annuity} = P * \dfrac{i * (1+i)^n}{(1+i)^n-1}\)</span></p>
+
+<p><strong>Where:</strong></p>
+
+<p><span class="math-tex">\(A\)</span> = annuity payment</p>
+
+<p><span class="math-tex">\(P\)</span> = Credit principal.</p>
+
+<p><span class="math-tex">\(i\)</span> = nominal (monthly) interest rate. Usually, it’s 1/12 of the annual interest rate. And usually, it’s a floating value, not a percentage. For example, if you have annual interest rate = 12%, then i = 0.01.</p>
+
+<p><span class="math-tex">\(n\)</span> = Number of payments. Usually, it’s the count of months.</p>
+
+<p>You are interested in four values: the count of periods to repay the credit, monthly payment, credit principal and credit interest. Each of these values can be calculated if others are known:</p>
+
+<p><strong>Credit principal:</strong></p>
+
+<p><span class="math-tex">\(P = \dfrac{A}{\left( \dfrac{i * (1+i)^n}{(1+i)^n-1} \right)}\)</span></p>
+
+<p><strong>A number of payments:</strong></p>
+
+<p><strong><span class="math-tex">\(n = \log_{1+i} \left( \dfrac{A}{A - i*P} \right)\)</span></strong></p>
+
+<h2 style="text-align: center;">Objectives</h2>
+
+<p>At this stage, you should add new behavior to the calculator:</p>
+
+<ol>
+	<li>First, you should ask the user which parameter they want to calculate. The calculator should be able to calculate the count of periods, monthly payment and credit principal.</li>
+	<li>Then you need to ask them to input the remaining values.</li>
+	<li>Finally, compute and output the value that they wanted.</li>
+</ol>
+
+<p><div class="alert alert-warning">Note that users input interest rate as a percentage, for example, 11.7, so you should divide this value by 100 to use in the formula above.</div></p>
+
+<p>Please be accurate when converting "<strong>X months</strong>" to "<strong>Y years and Z months</strong>". Avoid writing "<span style="color: #ff4363;">0 years and 11 months</span>" (output "<span style="color: #66cc66;">11 months</span>" instead) and "<span style="color: #ff4363;">1 years and 0 months</span>" (output "<span style="color: #66cc66;">1 year</span>" instead).</p>
+
+<p>Note that at this stage you have to ask the user to input parameters in a determined order which is provided below. Simply disregard the value the user wants to calculate from this order and follow it. For example, it can be monthly payment if the user typed “a” for the question “What do you want to calculate?”. Here is the order:</p>
+
+<ul>
+	<li>
+	<p>The first is the credit principal. </p>
+	</li>
+	<li>
+	<p>The second is a monthly payment. </p>
+	</li>
+	<li>
+	<p>The next is the count of the period.</p>
+	</li>
+	<li>
+	<p>The last is the credit interest.</p>
+	</li>
+</ul>
+
+<h2 style="text-align: center;">Examples</h2>
+
+<p>The greater-than symbol followed by space (<code class="java">&gt; </code>) represents the user input. Notice that it's not the part of the input.</p>
+
+<p><strong>Example 1:</strong></p>
+
+<pre><code class="language-no-highlight">What do you want to calculate? 
+type "n" - for count of months, 
+type "a" - for annuity monthly payment,
+type "p" - for credit principal: 
+&gt; n
+Enter credit principal: 
+&gt; 1000000
+Enter monthly payment: 
+&gt; 15000
+Enter credit interest:
+&gt; 10
+You need 8 years and 2 months to repay this credit!</code></pre>
+
+<p>Let’s take a closer look at <strong>Example 1</strong>.</p>
+
+<p>You know the credit principal, the credit interest and want to calculate the count of months. What shall you do?</p>
+
+<p>1) You need to know the nominal interest rate. It is calculated like this:</p>
+
+<p><span class="math-tex">\(i = \dfrac{10\%}{12 * 100\%} = 0.008333...\)</span></p>
+
+<p>2) Now you can calculate the count of periods:</p>
+
+<p><span class="math-tex">\(n = \log_{1 + 0.008333...} \left( \dfrac{15000}{15000-0.008333... * 1000000} \right) = 97.71...\)</span></p>
+
+<p>3) You need integer count of periods, so let’s round it up. Notice that the user will pay a monthly payment for 97 months, and for 98th month the user will pay 0.71... of the monthly payment. So, there are 98 months to pay.</p>
+
+<p><span class="math-tex">\(n = 98\)</span></p>
+
+<p>4) Finally, you need to convert “98 months” to “8 years and 2 months”, so it is more readable and understandable for the user.</p>
+
+<p>Consider other examples:</p>
+
+<p><strong>Example 2:</strong></p>
+
+<pre><code class="language-no-highlight">What do you want to calculate? 
+type "n" - for count of months, 
+type "a" - for annuity monthly payment,
+type "p" - for credit principal: 
+&gt; a
+Enter credit principal: 
+&gt; 1000000
+Enter count of periods:
+&gt; 60
+Enter credit interest:
+&gt; 10
+Your annuity payment = 21248!</code></pre>
+
+<p><strong>Example 3:</strong></p>
+
+<pre><code class="language-no-highlight">What do you want to calculate? 
+type "n" - for count of months, 
+type "a" - for annuity monthly payment,
+type "p" - for credit principal: 
+&gt; p
+Enter monthly payment: 
+&gt; 8721.8
+Enter count of periods:
+&gt; 120
+Enter credit interest:
+&gt; 5.6
+Your credit principal = 800000!</code></pre>
