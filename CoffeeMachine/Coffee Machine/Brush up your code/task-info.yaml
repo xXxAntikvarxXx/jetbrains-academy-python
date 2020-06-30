@@ -1,5 +1,5 @@
 type: edu
-custom_name: stage5
+custom_name: stage6
 files:
 - name: tests.py
   visible: false
@@ -87,7 +87,7 @@ files:
                             "This test is exactly like in the example "
                             "- try to run it by yourself"
                         )
-                     ),
+                    ),
 
                     (
                         test2_input,
@@ -248,6 +248,13 @@ files:
     if __name__ == '__main__':
         CoffeeMachineTest('machine.coffee_machine').run_tests()
   learner_created: false
-feedback_link: https://hyperskill.org/projects/68/stages/370/implement
-status: Unchecked
+- name: machine/coffee_machine.py
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/projects/68/stages/371/implement
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/68/stages/371/implement">JetBrains
+    Academy</a>
+  time: Tue, 30 Jun 2020 17:55:38 UTC
 record: -1
