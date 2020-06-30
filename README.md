@@ -92,3 +92,4 @@
 **Easy**
 * Zookeeper
 * Coffee Machine
+* Credit Calculator
