@@ -1,0 +1,21 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    string = "red yellow fox bite orange goose beeeeeeeeeeep"
+    vowels = 'aeiou'
+    count = 0
+
+    # fix this for loop
+    for letter in ...:
+        if letter in vowels:
+            count += 1
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7199
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/7199">JetBrains
+    Academy</a></html>
+  time: Tue, 07 Jul 2020 18:17:32 UTC
+record: -1

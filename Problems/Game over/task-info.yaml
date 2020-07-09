@@ -1,0 +1,15 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    scores = input().split()
+    # put your python code here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6609
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/6609">JetBrains
+    Academy</a></html>
+  time: Thu, 09 Jul 2020 07:14:06 UTC
+record: -1

@@ -1,0 +1,18 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6077
+status: Solved
+feedback:
+  message: |-
+    <html>[+] Test #1. OK
+    [+] Test #2. OK
+    [+] Test #3. OK
+    [+] Test #4. OK
+    [+] Test #5. OK
+
+    5 of 5 test(s) passed.<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/6077">JetBrains Academy</a></html>
+  time: Tue, 30 Jun 2020 20:21:56 UTC
+record: -1

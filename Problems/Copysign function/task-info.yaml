@@ -1,0 +1,18 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    # place `import` statement at top of the program
+
+
+    # don't modify this code or the variables may not be available
+    x, y = map(float, input().split(' '))
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7179
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/7179">JetBrains
+    Academy</a></html>
+  time: Tue, 30 Jun 2020 21:05:45 UTC
+record: -1
