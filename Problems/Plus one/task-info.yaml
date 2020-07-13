@@ -1,0 +1,13 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: '# please work with the variable ''list_of_strings'''
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7080
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/7080">JetBrains
+    Academy</a></html>
+  time: Thu, 09 Jul 2020 21:10:42 UTC
+record: -1

@@ -1,0 +1,15 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    words = ["apple", "it", "creek", "pelican", "subsequent", "horse",
+             "apothecary"]
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6711
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/6711">JetBrains
+    Academy</a></html>
+  time: Thu, 09 Jul 2020 21:02:04 UTC
+record: -1

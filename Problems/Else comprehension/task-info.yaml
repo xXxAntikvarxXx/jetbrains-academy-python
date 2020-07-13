@@ -1,0 +1,18 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    # the following line reads the list from the input, do not modify it, please
+    old_list = [int(num) for num in input().split()]
+
+    binary_list = # your code here
+    print(binary_list)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9887
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9887">JetBrains
+    Academy</a></html>
+  time: Fri, 10 Jul 2020 10:53:45 UTC
+record: -1

@@ -1,0 +1,23 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    # work with a list from this variable
+    numbers = [int(n) for n in input()]
+
+    # change the next two lines
+    less_than_5 = ...
+    greater_than_5 = ...
+
+    # printing your results
+    print(less_than_5)
+    print(greater_than_5)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9505
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9505">JetBrains
+    Academy</a></html>
+  time: Fri, 10 Jul 2020 10:47:57 UTC
+record: -1

@@ -1,0 +1,15 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    random_numbers = [1, 22, 333, 4444, 55555]
+    print("\n".join(random_numbers))
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6980
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/6980">JetBrains
+    Academy</a></html>
+  time: Sun, 12 Jul 2020 18:56:03 UTC
+record: -1

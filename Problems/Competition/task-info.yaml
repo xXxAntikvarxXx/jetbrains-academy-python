@@ -1,0 +1,24 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    check = ...([True, True, 1, 1, True])
+
+    if ...:
+        status = 'winner'
+    else:
+        status = 'loser'
+
+    if status == ...:
+        winning_sum = 100
+    else:
+        winning_sum = 10
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7806
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/7806">JetBrains
+    Academy</a></html>
+  time: Mon, 13 Jul 2020 12:31:06 UTC
+record: -1

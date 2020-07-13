@@ -1,0 +1,13 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: prime_numbers = ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9515
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9515">JetBrains
+    Academy</a></html>
+  time: Mon, 13 Jul 2020 12:44:25 UTC
+record: -1

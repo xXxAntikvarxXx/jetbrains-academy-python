@@ -1,0 +1,17 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    # here we create the initial list from the input, please do not modify this line
+    x = json.loads(input())
+
+    els = [el for __ in x for __ in a __ el > 0]
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6712
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/6712">JetBrains
+    Academy</a></html>
+  time: Sun, 12 Jul 2020 15:15:38 UTC
+record: -1

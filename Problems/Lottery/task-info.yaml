@@ -1,0 +1,17 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    # As luck would have it
+    tickets = [11, 22, 33, 44, 55]
+    winning_tickets = [i >= ... for i in ...]
+    tickets_bool = ...(winning_tickets)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7805
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/7805">JetBrains
+    Academy</a></html>
+  time: Mon, 13 Jul 2020 12:25:42 UTC
+record: -1
