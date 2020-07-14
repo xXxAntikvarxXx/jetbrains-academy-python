@@ -1,0 +1,18 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    import random
+
+
+    random.seed(3)
+    # call the function here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7842
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/7842">JetBrains
+    Academy</a></html>
+  time: Tue, 14 Jul 2020 14:43:16 UTC
+record: -1

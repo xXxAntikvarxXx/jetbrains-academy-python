@@ -1,0 +1,15 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    def merge_lists(list_one, list_two):
+        ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10068
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/10068">JetBrains
+    Academy</a></html>
+  time: Tue, 14 Jul 2020 14:07:29 UTC
+record: -1

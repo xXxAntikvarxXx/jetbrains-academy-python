@@ -1,0 +1,23 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    import random
+
+    # your sentence is assigned to the variable
+    sentence = input().split()
+
+    # write your python code below
+
+
+    # shows the message
+    print(' '.join(sentence))
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6268
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/6268">JetBrains
+    Academy</a></html>
+  time: Tue, 14 Jul 2020 14:51:04 UTC
+record: -1

@@ -1,0 +1,30 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    def square_odds(a, b):
+        start = a
+        if a % 2 == 0:
+            start += 1
+        end = b + 1
+        for odd in range(start, end, 2):
+            print(odd ** 2)
+
+
+    # from 22 to 42
+    square_odds(a=22, 42)
+
+    # from 15 to 31
+    square_odds(b=15, a=31)
+
+    # from 42 to 49
+    square_odds(49, a=42)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8557
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/8557">JetBrains
+    Academy</a></html>
+  time: Mon, 13 Jul 2020 20:35:37 UTC
+record: -1

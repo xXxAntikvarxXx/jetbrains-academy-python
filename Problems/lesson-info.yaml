@@ -1,169 +1,198 @@
 content:
-- A complex expression
-- A list of words
-- A lot of nested lists
-- A mean of n
-- A pyramid!
-- A simple expression
-- A very nested list
-- Accessing elements of a matrix
-- Adding together
-- Alice in Wonderland
-- An empty list!
-- Beautify both output and code
-- Boundary
-- Calculate a remainder
-- Calculate it
-- Calculating an expression
-- Calculating S V P
-- Calculating the factorial
-- Capitalize all words
-- CapWords
-- Cat cafés
-- Catchy song
-- Chaos
-- Competition
-- Conditions & nested lists
-- Cook book
-- Copysign function
-- Cotangent
-- Count up the squares
-- Decimal places
-- Define a string
-- Desks
-- Difference
-- Difference of times
-- Divide nuts equally between squirrels
-- Don't want to delete? Comment!
-- Double square root
-- E ** x minus one
-- Else comprehension
-- English contractions
-- Even numbers
-- Exactly 100 times
-- Factorial
-- Factorial of 3
-- Favor
-- Fill the blanks
-- Film
-- Find even
-- Find positions
-- Find the length
-- Find the third number
-- Find words
-- First, second, third
-- Fix str
-- Fix the mistakes
-- FizzBuzz
-- Flip
-- Focus on the positive
-- From comment to code
-- Game over
-- Good names
-- Good programmer
-- Good rest on vacation
-- Guessing game
-- Half-life
-- Heads or Tails
-- Hello!
-- Hello, Python
-- Hello, world!
-- Heron's formula
-- How long is that word?
-- How many days?
-- How many nuts will be left after division
-- In the middle
-- Index of synthesis
-- Initials
-- Latin alphabet
-- Length
-- Lexical reduplication
-- List from string
-- Logistic function
-- Longest word
-- Lottery
-- Lucky 7
-- Lucky ticket
-- Make a number!
-- Markdown parsing
-- mixedCase
-- Modifying data
-- Movie theater
-- Not exactly random
-- Numbers
-- Octahedron
-- Odd numbers
-- Order!
-- Palindrome
-- Party time
-- Plain message
-- Plurals
-- Plus one
-- Poetry
-- Poster artist
-- Prepositional genitive
-- Preprocessing
-- Prime number
-- Prime numbers
-- Print a float number
-- Print a sign
-- Print a string
-- Print an integer
-- Process integer input
-- Raise to power
-- Reveal the hidden
-- Rich man's world
-- Round pi
-- Running average
-- Running total
-- Savings account
-- Sine and cosine
-- Single-element list
-- Small scale
-- snake_case
-- Speech generation
-- Spellchecker
-- Square
-- Square up
-- Straight A's
-- String length
-- String tricks
-- Sum
-- Sum of numbers
-- Sum of two floats
-- Tail
-- Taking turns
-- Tax brackets
-- Tennis tournament
-- Test
-- The area of a circle
-- The army of units
-- The average of all numbers
-- The eternal truth
-- The first digit of a two-digit number
-- The last digit of a number
-- The logarithmic value
-- The mean
-- The mean 2
-- The power
-- The result of a game in Tic-Tac-Toe
-- The sum of digits
-- The type
-- This is Python
-- Threefold
-- Triangle
-- Triple-quoted string
-- Types
-- Underworld
-- Update a list
-- Very odd
-- Vowel count
-- Vowels
-- Vowels and consonants
-- We need learn Python
-- What day is it?
-- Where are the comments?
-- Word list
-- Working with strings
-- Young and beautiful
-- Your name
+  - A complex expression
+  - A list of words
+  - A lot of nested lists
+  - A mean of n
+  - A pyramid!
+  - A simple expression
+  - A single-element tuple
+  - A very nested list
+  - Accessing elements of a matrix
+  - Adding together
+  - Alice in Wonderland
+  - Alphabet
+  - An empty list!
+  - Beautify both output and code
+  - Beta distribution
+  - Boundary
+  - Calculate a remainder
+  - Calculate it
+  - Calculating an expression
+  - Calculating S V P
+  - Calculating the factorial
+  - Call me by my name
+  - Capitalize all words
+  - CapWords
+  - Cat cafés
+  - Catchy song
+  - Chaos
+  - Checking email
+  - Competition
+  - Computer hours
+  - Conditions & nested lists
+  - Cook book
+  - Copysign function
+  - Cotangent
+  - Count up the squares
+  - Counting unique
+  - Decimal places
+  - Define a string
+  - Desks
+  - Difference
+  - Difference of times
+  - Divide nuts equally between squirrels
+  - Don't want to delete? Comment!
+  - Double square root
+  - E ** x minus one
+  - Else comprehension
+  - English contractions
+  - Even numbers
+  - Exactly 100 times
+  - Factorial
+  - Factorial of 3
+  - Favor
+  - Favorable default
+  - Fill the blanks
+  - Film
+  - Find even
+  - Find positions
+  - Find the length
+  - Find the third number
+  - Find words
+  - First, second, third
+  - Fix str
+  - Fix the mistakes
+  - FizzBuzz
+  - Flip
+  - Focus on the positive
+  - From 0 to 1
+  - From comment to code
+  - Game over
+  - Good names
+  - Good programmer
+  - Good rest on vacation
+  - Guessing game
+  - Half-life
+  - Heads or Tails
+  - Hello!
+  - Hello, Python
+  - Hello, world!
+  - Heron's formula
+  - How long is that word?
+  - How many days?
+  - How many nuts will be left after division
+  - In the middle
+  - Index of synthesis
+  - Initials
+  - Latin alphabet
+  - Length
+  - Letters
+  - Levitate
+  - Lexical reduplication
+  - List from input
+  - List from string
+  - Logistic function
+  - Longest word
+  - Lottery
+  - Lucky 7
+  - Lucky ticket
+  - Make a number!
+  - Markdown heading
+  - Markdown parsing
+  - Memory test
+  - Merging lists
+  - Misfortune
+  - mixedCase
+  - Modifying data
+  - Movie theater
+  - Mystery set
+  - Name
+  - Not exactly random
+  - Numbers
+  - Oceans
+  - Octahedron
+  - Odd numbers
+  - Order!
+  - Palindrome
+  - Party time
+  - Percentage
+  - Plain message
+  - Plurals
+  - Plus one
+  - Poetry
+  - Poster artist
+  - Prepositional genitive
+  - Preprocessing
+  - Prime number
+  - Prime numbers
+  - Print a float number
+  - Print a sign
+  - Print a string
+  - Print an integer
+  - Process integer input
+  - Raise to power
+  - Reveal the hidden
+  - Rich man's world
+  - Round pi
+  - Running average
+  - Running total
+  - Savings account
+  - Shopping list
+  - Simon says
+  - Sine and cosine
+  - Single-element list
+  - Small scale
+  - snake_case
+  - Speech generation
+  - Spellchecker
+  - Square
+  - Square up
+  - Straight A's
+  - String length
+  - String tricks
+  - Substring
+  - Sum
+  - Sum of numbers
+  - Sum of two floats
+  - Tail
+  - Taking turns
+  - Tax brackets
+  - Tennis tournament
+  - Test
+  - The area of a circle
+  - The army of units
+  - The average of all numbers
+  - The dice game
+  - The eternal truth
+  - The first digit of a two-digit number
+  - The last digit of a number
+  - The last number
+  - The logarithmic value
+  - The mean
+  - The mean 2
+  - The power
+  - The result of a game in Tic-Tac-Toe
+  - The sum of digits
+  - The type
+  - This is Python
+  - Threefold
+  - Triangle
+  - Triple-quoted string
+  - Types
+  - Underworld
+  - Update a list
+  - URL
+  - Very odd
+  - Voldemort
+  - Vowel count
+  - Vowels
+  - Vowels and consonants
+  - Warm welcome
+  - We need learn Python
+  - What day is it?
+  - Where are the comments?
+  - Word list
+  - Working with strings
+  - Yoda style
+  - Young and beautiful
+  - Your name

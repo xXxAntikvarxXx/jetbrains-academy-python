@@ -1,0 +1,28 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    import random
+
+
+    # this line is needed for us to check the results, don't modify it please
+    random.seed(int(input()))
+
+    # use a function from the random module in the next line
+    print(...)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6267
+status: Solved
+feedback:
+  message: |-
+    <html>[+] Test #1. OK
+    [+] Test #2. OK
+    [+] Test #3. OK
+    [+] Test #4. OK
+    [+] Test #5. OK
+    [+] Test #6. OK
+
+    6 of 6 test(s) passed.<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/6267">JetBrains Academy</a></html>
+  time: Tue, 14 Jul 2020 14:46:37 UTC
+record: -1

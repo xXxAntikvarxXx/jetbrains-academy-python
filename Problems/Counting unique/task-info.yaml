@@ -1,0 +1,20 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    # The following code is needed for us to check your answer, do not modify it, please.
+    students = json.loads(input())
+    Belov = students['Belov']
+    Smith = students['Smith']
+    Sarada = students['Sarada']
+
+    # Your code here. Work with the variables 'Belov', 'Smith', and 'Sarada'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6649
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/6649">JetBrains
+    Academy</a></html>
+  time: Tue, 14 Jul 2020 16:40:42 UTC
+record: -1

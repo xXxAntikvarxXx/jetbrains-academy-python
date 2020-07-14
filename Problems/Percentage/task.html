@@ -1,0 +1,23 @@
+<b>Percentage</b> <a class=right href="https://hyperskill.org/learn/step/9516">Open on JetBrains Academy</a>
+<br><br>
+<html>
+ <head></head>
+ <body>
+  <p>Write a function <code class="language-python">get_percentage</code> that takes a real number and represents it as a percentage. So, for example, <code class="language-python">0.1</code> will be equal to <code class="language-python">10%</code>, while <code class="language-python">1.052</code> will be <code class="language-python">105.2%</code>. Also, add an optional parameter <code class="language-python">round_digits</code>, which indicates a precision (the number of digits after the point). If it is not specified, round the result to the nearest integer. Here are some examples:</p> 
+  <pre><code class="language-python">print(get_percentage(0.0123))      # 1%
+print(get_percentage(0.0123, 0))   # 1.0%
+print(get_percentage(0.0123, 1))   # 1.2%
+print(get_percentage(0.0123, 10))  # 1.23%</code></pre> 
+  <p>Don't forget to add the percent sign <code class="language-python">%</code> after the number. The returned percentage should be a string.</p> 
+  <p>Just implement your function, you don't have to handle input or call it in your code.</p> 
+  <p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-935').style.display='inline'"> Hint </button> </p>
+  <div id="hint-935" style="display:none;">
+   The built-in function 
+   <code class="language-python">round()</code> might be of help, it takes up to two arguments, 
+   <code class="language-python">number</code> and 
+   <code class="language-python">ndigits</code>.
+  </div>
+  <p></p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/7248">Show topic summary</a>

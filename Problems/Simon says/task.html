@@ -1,0 +1,19 @@
+<b>Simon says</b> <a class=right href="https://hyperskill.org/learn/step/9560">Open on JetBrains Academy</a>
+<br><br>
+<html>
+ <head></head>
+ <body>
+  <p>Do you know the game "Simon says"? The instructor, "Simon", says what the players should do, e.g. "jump in the air" or "close your eyes". The players should follow the instructions only if the phrase starts with "Simon says". Now, let's implement a digital version of this game! We will modify it a bit: the correct instructions may not only start but also end with the words "Simon says".</p> 
+  <p>Write a function that takes a string with instructions: if it starts or ends with the words <code class="java">"Simon says"</code>, your function should return the string <code class="java">"I "</code> plus what you would do: the instructions themselves. Otherwise, return <code class="java">"I won't do it!"</code>.</p> 
+  <p>You are not supposed to handle input or call your function, just implement it.</p> 
+  <p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-822').style.display='inline'"> Hint </button> </p>
+  <div id="hint-822" style="display:none;">
+   To get a substring of a string from its beginning till a specific index, use 
+   <code class="java">string[:ind+1]</code>. In this case, the element with the index 
+   <code class="java">ind</code> will be included. The other way round, to get a substring from a specific index till the end of the string, use 
+   <code class="java">string[ind:]</code>.
+  </div>
+  <p></p>
+ </body>
+</html><br><b>Sample Input:</b><br>make a wish Simon says<br><b>Sample Output:</b><br>I make a wish<br><br><br><b>Sample Input:</b><br>go away<br><b>Sample Output:</b><br>I won't do it!<br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/9558">Show topic summary</a>
