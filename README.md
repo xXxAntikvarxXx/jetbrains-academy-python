@@ -7,6 +7,7 @@
 * [Credit Calculator](https://hyperskill.org/projects/90)
 * [Tic-Tac-Toe](https://hyperskill.org/projects/73)
 * [Hangman](https://hyperskill.org/projects/69)
+* [Simple Chatty Bot](https://hyperskill.org/projects/97)
 
 #### Medium
 * [Coffee Machine](https://hyperskill.org/projects/68)
@@ -88,6 +89,7 @@
 - [Good names](https://hyperskill.org/learn/step/6876)
 - [Good programmer](https://hyperskill.org/learn/step/7137)
 - [Good rest on vacation](https://hyperskill.org/learn/step/6465)
+- [Grade](https://hyperskill.org/learn/step/6524)
 - [Guessing game](https://hyperskill.org/learn/step/6382)
 - [Half-life](https://hyperskill.org/learn/step/6543)
 - [Heads or Tails](https://hyperskill.org/learn/step/7808)
