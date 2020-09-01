@@ -1,0 +1,18 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    from datetime import datetime
+
+
+    def get_release_date(release_str):
+        ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9819
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9819">JetBrains
+    Academy</a></html>
+  time: Tue, 01 Sep 2020 21:54:58 UTC
+record: -1

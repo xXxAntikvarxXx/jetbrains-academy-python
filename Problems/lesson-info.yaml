@@ -1,5 +1,6 @@
 content:
 - 10 puppies
+- 12 and 24
 - A complex expression
 - A list of words
 - A lot of nested lists
@@ -54,6 +55,7 @@ content:
 - Create
 - Date
 - Dating App
+- Day of the week
 - Decimal places
 - Define a string
 - Desks
@@ -251,9 +253,11 @@ content:
 - The mean 2
 - The power
 - The result of a game in Tic-Tac-Toe
+- The standard
 - The Sum of 2
 - The sum of digits
 - The type
+- Theatric release
 - This is Python
 - Threefold
 - Time
