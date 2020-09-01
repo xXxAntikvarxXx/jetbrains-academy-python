@@ -1,0 +1,13 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: '# start a RockBand here'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6667
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/6667">JetBrains
+    Academy</a></html>
+  time: Thu, 27 Aug 2020 19:29:40 UTC
+record: -1

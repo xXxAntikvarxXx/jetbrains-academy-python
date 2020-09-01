@@ -1,0 +1,15 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # please work with the variable children
+    # update the dict and print it
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9145
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9145">JetBrains
+    Academy</a></html>
+  time: Sun, 30 Aug 2020 20:27:22 UTC
+record: -1

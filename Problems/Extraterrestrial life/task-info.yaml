@@ -1,0 +1,19 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # The parental gene sequences are stored here
+    one_ancestor = input()
+    other_ancestor = input()
+
+    # Calculate the identity of a new alien here
+    new_alien = ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8299
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/8299">JetBrains
+    Academy</a></html>
+  time: Sun, 30 Aug 2020 21:22:10 UTC
+record: -1

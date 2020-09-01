@@ -1,0 +1,13 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: '# call the function `special` here'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7253
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/7253">JetBrains
+    Academy</a></html>
+  time: Tue, 01 Sep 2020 17:17:17 UTC
+record: -1

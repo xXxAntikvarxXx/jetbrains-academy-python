@@ -1,4 +1,5 @@
 content:
+- 10 puppies
 - A complex expression
 - A list of words
 - A lot of nested lists
@@ -8,36 +9,55 @@ content:
 - A single-element tuple
 - A very nested list
 - Accessing elements of a matrix
+- Adding an item
 - Adding together
 - Alice in Wonderland
+- All hands on deck
 - Alphabet
 - An empty list!
+- Batman
 - Beautify both output and code
 - Beta distribution
+- Birdbox
+- Bittersweet occasion
+- Black box
 - Boundary
 - Calculate a remainder
 - Calculate it
 - Calculating an expression
 - Calculating S V P
 - Calculating the factorial
+- Calculator
 - Call me by my name
 - Capitalize all words
+- Captain
 - CapWords
+- Car
 - Cat cafés
 - Catchy song
 - Chaos
+- Check references
 - Checking email
+- Cities
 - Competition
 - Computer hours
+- Concatenation with the separator
 - Conditions & nested lists
+- Congratulatory letter
 - Cook book
+- Cook book 2
+- Coordinates
 - Copysign function
 - Cotangent
 - Count up the squares
 - Counting unique
+- Create
+- Date
+- Dating App
 - Decimal places
 - Define a string
 - Desks
+- Dictionary membership
 - Difference
 - Difference of times
 - Divide nuts equally between squirrels
@@ -46,53 +66,77 @@ content:
 - E ** x minus one
 - Else comprehension
 - English contractions
+- Equation
 - Even numbers
 - Exactly 100 times
+- Extraterrestrial life
+- Extreme Points
 - Factorial
 - Factorial of 3
+- Fahrenheit
+- Fan or not
 - Favor
 - Favorable default
 - Fill the blanks
 - Film
+- Find beautiful identity
 - Find even
 - Find positions
 - Find the length
+- Find the mistakes
 - Find the third number
 - Find words
+- Find your list
 - First, second, third
 - Fix str
 - Fix the mistakes
 - FizzBuzz
 - Flip
+- Flower taxonomy
+- Flying high
 - Focus on the positive
+- Frequency Dictionary
 - From 0 to 1
 - From comment to code
+- Full name
 - Game over
 - Good names
 - Good programmer
 - Good rest on vacation
 - Grade
+- Greetings
 - Guessing game
 - Half-life
+- Happy birthday!
 - Heads or Tails
+- Healthy Habits
+- Healthy sleep
 - Hello!
 - Hello, Python
 - Hello, world!
 - Heron's formula
+- Hexagon
 - How long is that word?
 - How many days?
 - How many nuts will be left after division
+- I have friends
 - In the middle
 - Index of synthesis
 - Initials
+- Jackie's Savings
+- Keep on sailing
 - Latin alphabet
+- Leap Year
 - Length
+- Let's rock
 - Letters
 - Levitate
 - Lexical reduplication
+- Lightbulb
 - List from input
 - List from string
 - Logistic function
+- Long live the king
 - Longest word
 - Lottery
 - Lucky 7
@@ -101,26 +145,39 @@ content:
 - Markdown heading
 - Markdown parsing
 - Memory test
+- Menu
 - Merging lists
+- Miles away
 - Misfortune
 - mixedCase
 - Modifying data
+- Mountain high
+- Movie night
 - Movie theater
+- Multiple cases
 - Mystery set
 - Name
+- Nested
 - Not exactly random
+- Now
 - Numbers
 - Oceans
 - Octahedron
 - Odd numbers
 - Order!
+- Paint
 - Palindrome
+- Particles
 - Party time
+- Patients
 - Percentage
+- Piggy bank
 - Plain message
 - Plurals
 - Plus one
 - Poetry
+- Point
+- Positive, Negative or Zero
 - Poster artist
 - Prepositional genitive
 - Preprocessing
@@ -130,42 +187,63 @@ content:
 - Print a sign
 - Print a string
 - Print an integer
+- Print book info
+- Printing books
 - Process integer input
+- Pumpkin
 - Raise to power
+- Recommender system
 - Reveal the hidden
 - Rich man's world
+- Right triangle
 - Round pi
 - Running average
 - Running total
 - Savings account
+- Shine on!
+- Shopping
 - Shopping list
 - Simon says
 - Sine and cosine
 - Single-element list
+- Singleton
 - Small scale
 - snake_case
+- Something in common
+- Something in the water
 - Speech generation
 - Spellchecker
 - Square
 - Square up
+- Squares
+- Stack class
 - Straight A's
 - String length
 - String tricks
+- Students
 - Substring
 - Sum
 - Sum of numbers
 - Sum of two floats
+- SuperRobot
 - Tail
 - Taking turns
+- Tallest people
 - Tax brackets
+- Temperature
 - Tennis tournament
 - Test
+- Test average
 - The area of a circle
 - The army of units
 - The average of all numbers
+- The Creator
 - The dice game
+- The Double
 - The eternal truth
+- The farm
 - The first digit of a two-digit number
+- The housing problem
 - The last digit of a number
 - The last number
 - The logarithmic value
@@ -173,15 +251,19 @@ content:
 - The mean 2
 - The power
 - The result of a game in Tic-Tac-Toe
+- The Sum of 2
 - The sum of digits
 - The type
 - This is Python
 - Threefold
+- Time
+- Tracklist
 - Triangle
 - Triple-quoted string
 - Types
 - Underworld
 - Update a list
+- Update info
 - URL
 - Very odd
 - Voldemort
@@ -189,9 +271,11 @@ content:
 - Vowels
 - Vowels and consonants
 - Warm welcome
+- We Are What We Eat
 - We need learn Python
 - What day is it?
 - Where are the comments?
+- Who is who
 - Word list
 - Working with strings
 - Yoda style

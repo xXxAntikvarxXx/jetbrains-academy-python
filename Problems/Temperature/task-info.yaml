@@ -1,0 +1,26 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    def fahrenheit_to_celsius(temps_f):
+        temps_c = (temps_f - 32) * 5 / 9
+        return round(temps_c, 2)
+
+
+    def celsius_to_fahrenheit(temps_c):
+        temps_f = temps_c * 9 / 5 + 32
+        return round(temps_f, 2)
+
+
+    def main():
+        """Entry point of the program."""
+        temperature, unit = input().split()  # read the input
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9577
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9577">JetBrains
+    Academy</a></html>
+  time: Sat, 18 Jul 2020 21:19:01 UTC
+record: -1

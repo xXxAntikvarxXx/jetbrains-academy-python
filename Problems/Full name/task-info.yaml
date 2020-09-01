@@ -1,0 +1,29 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    # create the function
+    def create_full_name(name, last_name):
+        ...
+
+
+    name1 = "John"
+    last_name1 = "Lennon"
+    full_name1 = name1 + " " + last_name1
+
+    name2 = "Hermione"
+    last_name2 = "Granger"
+    full_name2 = name2 + " " + last_name2
+
+    name3 = "Lady"
+    last_name3 = "Gaga"
+    full_name3 = name3 + " " + last_name3
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9575
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9575">JetBrains
+    Academy</a></html>
+  time: Sat, 18 Jul 2020 20:48:36 UTC
+record: -1

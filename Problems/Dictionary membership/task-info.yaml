@@ -1,0 +1,18 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    sidekicks = {'Don Quixote': 'Sancho Panza', 'Batman': 'Robin', 'Holmes': 'Watson'}
+    print('Sancho Panza' ... sidekicks)
+    print('Batman' ... sidekicks)
+    print('Han Solo' ... sidekicks)
+    print('' ... sidekicks)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8834
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/8834">JetBrains
+    Academy</a></html>
+  time: Mon, 31 Aug 2020 18:22:54 UTC
+record: -1

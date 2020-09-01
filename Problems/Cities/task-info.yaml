@@ -1,0 +1,20 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    user_city = "Istanbul"
+
+    def change_city(new_user_city):
+        user_city = new_user_city
+
+    change_city("Paris")
+    print(user_city)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6344
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/6344">JetBrains
+    Academy</a></html>
+  time: Sun, 09 Aug 2020 14:09:04 UTC
+record: -1

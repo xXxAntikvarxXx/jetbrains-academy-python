@@ -1,0 +1,23 @@
+<h2>Healthy sleep</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Ann watched a TV program about health and learned that it is recommended to sleep at least <span class="math-tex">\(A\)</span> hours per day. Oversleeping is also unhealthy and you should not sleep more than <span class="math-tex">\(B\)</span> hours. Now, Ann sleeps <span class="math-tex">\(H\)</span> hours per day.</p> 
+  <p>Check if Ann's sleep schedule complies with the requirements of that TV program.</p> 
+  <p><strong>The input format:</strong></p> 
+  <p>The input comprises three strings with variables in the following order: <span class="math-tex">\( A \)</span>, <span class="math-tex">\( B \)</span>, <span class="math-tex">\( H \)</span>.</p> 
+  <p><span class="math-tex">\( A \)</span> is always less than or equal to <span class="math-tex">\( B \)</span>.</p> 
+  <p><strong>The output format:</strong></p> 
+  <p>If Ann sleeps less than <span class="math-tex">\(A\)</span> hours, output <code class="java">"Deficiency"</code>, if she sleeps more than <span class="math-tex">\(B\)</span> hours, output <code class="java">"Excess"</code>.</p> 
+  <p>If <span class="math-tex">\(H\)</span> lies between <span class="math-tex">\(A\)</span> and <span class="math-tex">\(B\)</span>, print <code class="java">"Normal"</code>.</p> 
+  <p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-1192').style.display='inline'"> Hint </button> </p>
+  <div id="hint-1192" style="display:none;">
+   Check the case: outputs like 
+   <code class="java">"excess"</code>, 
+   <code class="java">"EXCESS"</code>, 
+   <code class="java">"ExCeSs"</code> and others will not pass the tests.
+  </div>
+  <p></p>
+ </body>
+</html><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">6<br>10<br>8</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">Normal</code></pre><br><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">7<br>9<br>10</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">Excess</code></pre><br><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">7<br>9<br>2</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">Deficiency</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 5 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/5926">Show topic summary</a>

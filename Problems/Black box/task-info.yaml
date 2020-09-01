@@ -1,0 +1,13 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: '# use the function blackbox(lst) that is already defined'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9267
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9267">JetBrains
+    Academy</a></html>
+  time: Mon, 31 Aug 2020 19:59:31 UTC
+record: -1

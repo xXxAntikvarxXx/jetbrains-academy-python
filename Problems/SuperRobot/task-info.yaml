@@ -1,0 +1,17 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    print(issubclass(SuperRobot, (AstromechDroid, MedicalDroid,
+                                  BattleDroid, PilotDroid)))
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9325
+status: Solved
+feedback:
+  message: |-
+    <html>Well done! The initial test resulted in True because it checked if SuperRobot inherited from *any* of the mentioned classes. It is neither an astromech nor a fighter, it doesn't belong to medical staff. Our droid is one hell of a pilot, and you have proved this fact!
+
+    <br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9325">JetBrains Academy</a></html>
+  time: Sat, 29 Aug 2020 22:11:45 UTC
+record: -1

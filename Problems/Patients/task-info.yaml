@@ -1,0 +1,20 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    class Patient:
+        def __init__(self, name, last_name, age):
+            self.name = name
+            self.last_name = last_name
+            self.age = age
+
+        # create methods here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7146
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/7146">JetBrains
+    Academy</a></html>
+  time: Sat, 29 Aug 2020 21:05:27 UTC
+record: -1

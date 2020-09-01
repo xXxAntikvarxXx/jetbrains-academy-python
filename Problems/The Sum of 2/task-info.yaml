@@ -1,0 +1,16 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # implement the function below
+    def get_sum(a, b):
+        pass
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5908
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/5908">JetBrains
+    Academy</a></html>
+  time: Tue, 01 Sep 2020 17:43:25 UTC
+record: -1

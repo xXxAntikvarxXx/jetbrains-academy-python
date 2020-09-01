@@ -1,0 +1,32 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    def f1(x):
+        ...
+
+
+    def f2(x):
+        ...
+
+
+    def f3(x):
+        ...
+
+
+    def f(x):
+        if x <= 0:
+            ...
+        elif 0 < x < 1:
+            ...
+        else:
+            ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9576
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9576">JetBrains
+    Academy</a></html>
+  time: Sat, 18 Jul 2020 20:54:10 UTC
+record: -1

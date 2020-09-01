@@ -1,0 +1,21 @@
+<h2>Jackie's Savings</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Jackie earned <strong>€1,000</strong> and now wants to put these savings in the bank for several months. However, he has not yet decided on the exact term for the contribution.</p> 
+  <p>Suppose that the bank that Jackie chose has offers for different amounts of time. The interest rates also change from month to month. So, let's say he decides to put money for three months, and the bank sets interest rates of <strong>5%</strong>, <strong>7%</strong> and <strong>4%</strong>. The accrual algorithm will be as follows:</p> 
+  <p>Amount after the first month: €1,000 * 1.05 = €1,050<br> Amount after the second month: €1,050 * 1.07 = €1,123.5<br> Amount after the third month: €1,123.5 * 1.04 = €1,168.44</p> 
+  <p>Thus, the final amount will be equal to <strong>€1,168.44</strong>. Round the value to <strong>two decimal places</strong>!</p> 
+  <p>Your task is to <strong>correct the errors</strong> in the definition of the <code class="java">final_deposit_amount()</code> function and implement it. The function should calculate and <strong>return </strong>the amount of money that Jackie will receive at the end. Note that we use interest rates as positional arguments to the function. We also have a keyword-only argument <code class="java">amount</code>. You do not need to call a function, just implement it.</p> 
+  <p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-1349').style.display='inline'"> Hint </button> </p>
+  <div id="hint-1349" style="display:none;">
+   Use 
+   <code class="java">round(amount, 2)</code> to get the value you need.
+  </div>
+  <p></p>
+ </body>
+</html><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">5 7 4</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">1168.44</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
+<b>Caution</b><br><br>
+You may see errors in your code or execution results due to missing context. Don’t worry about it, just write the solution and press Check.
+<br><br>
+<a href="https://hyperskill.org/learn/step/8560">Show topic summary</a>

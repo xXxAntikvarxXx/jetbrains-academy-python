@@ -1,0 +1,15 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # create a dict here
+    # and print it
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9143
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9143">JetBrains
+    Academy</a></html>
+  time: Sun, 30 Aug 2020 20:31:46 UTC
+record: -1

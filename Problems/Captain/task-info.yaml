@@ -1,0 +1,13 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: '# declare your function here'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7284
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/7284">JetBrains
+    Academy</a></html>
+  time: Thu, 27 Aug 2020 19:05:29 UTC
+record: -1

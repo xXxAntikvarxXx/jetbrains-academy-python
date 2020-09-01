@@ -1,0 +1,15 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    def check(obj1, obj2):
+        ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9266
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9266">JetBrains
+    Academy</a></html>
+  time: Mon, 31 Aug 2020 21:01:43 UTC
+record: -1

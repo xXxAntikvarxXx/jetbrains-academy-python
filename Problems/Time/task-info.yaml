@@ -1,0 +1,15 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # some_date has been defined
+    # print its time part
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7331
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/7331">JetBrains
+    Academy</a></html>
+  time: Tue, 01 Sep 2020 18:03:19 UTC
+record: -1

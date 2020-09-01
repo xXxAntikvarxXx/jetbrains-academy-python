@@ -1,0 +1,17 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    class Puppy:
+        n_puppies = 0  # number of created puppies
+
+        # define __new__
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7145
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/7145">JetBrains
+    Academy</a></html>
+  time: Sat, 29 Aug 2020 20:51:08 UTC
+record: -1
