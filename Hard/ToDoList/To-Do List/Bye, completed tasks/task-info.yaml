@@ -1,10 +1,5 @@
 type: edu
 files:
-- name: todolist/todolist.py
-  visible: true
-  text: |
-    # Write your code here
-  learner_created: false
 - name: tests.py
   visible: false
   text: |
@@ -368,6 +363,11 @@ files:
 
     if __name__ == '__main__':
         ToDoList('todolist.todolist').run_tests()
+  learner_created: false
+- name: todolist/todolist.py
+  visible: true
+  text: |
+    # Write your code here
   learner_created: false
 feedback_link: https://hyperskill.org/projects/105/stages/573/implement
 status: Solved
