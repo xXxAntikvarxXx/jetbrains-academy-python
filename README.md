@@ -1337,3 +1337,22 @@ Links:
 Links:
 	* [JetBrainsAcademy](https://hyperskill.org/learn/step/7331)
 	* [Source](./Problems/Time)
+
+#### Datetime parsing and formatting
+
+- 12 and 24 ![Medium](./.readme/images/medium-level.svg) Medium\
+Links:
+	* [JetBrainsAcademy](https://hyperskill.org/learn/step/9820)
+	* [Source](./Problems/12%20and%2024)
+- Day of the week ![Medium](./.readme/images/medium-level.svg) Medium\
+Links:
+	* [JetBrainsAcademy](https://hyperskill.org/learn/step/9821)
+	* [Source](./Problems/Day%20of%20the%20week)
+- The standard ![Medium](./.readme/images/medium-level.svg) Medium\
+Links:
+	* [JetBrainsAcademy](https://hyperskill.org/learn/step/9818)
+	* [Source](./Problems/The%20standard)
+- Theatric release ![Hard](./.readme/images/hard-level.svg) Hard\
+Links:
+	* [JetBrainsAcademy](https://hyperskill.org/learn/step/9819)
+	* [Source](./Problems/Theatric%20release)
